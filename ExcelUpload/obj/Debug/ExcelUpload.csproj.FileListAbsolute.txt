@@ -1,0 +1,19 @@
+D:\Work\ExcelUpload\ExcelUpload\bin\Debug\ExcelUpload.dll
+D:\Work\ExcelUpload\ExcelUpload\bin\Debug\ExcelUpload.pdb
+D:\Work\ExcelUpload\ExcelUpload\bin\Debug\Ionic.Utils.Zip.dll
+D:\Work\ExcelUpload\ExcelUpload\bin\Debug\Net.SourceForge.Koogra.dll
+D:\Work\ExcelUpload\ExcelUpload\obj\Debug\ExcelUpload.dll
+D:\Work\ExcelUpload\ExcelUpload\obj\Debug\ExcelUpload.pdb
+C:\Users\Smith\Documents\Visual Studio 2015\Projects\ExcelUpload\ExcelUpload\bin\Debug\ExcelUpload.dll
+C:\Users\Smith\Documents\Visual Studio 2015\Projects\ExcelUpload\ExcelUpload\bin\Debug\ExcelUpload.pdb
+C:\Users\Smith\Documents\Visual Studio 2015\Projects\ExcelUpload\ExcelUpload\bin\Debug\Ionic.Utils.Zip.dll
+C:\Users\Smith\Documents\Visual Studio 2015\Projects\ExcelUpload\ExcelUpload\bin\Debug\Net.SourceForge.Koogra.dll
+C:\Users\Smith\Documents\Visual Studio 2015\Projects\ExcelUpload\ExcelUpload\obj\Debug\ExcelUpload.csprojResolveAssemblyReference.cache
+C:\Users\Smith\Documents\Visual Studio 2015\Projects\ExcelUpload\ExcelUpload\obj\Debug\ExcelUpload.dll
+C:\Users\Smith\Documents\Visual Studio 2015\Projects\ExcelUpload\ExcelUpload\obj\Debug\ExcelUpload.pdb
+C:\Users\Smith\Documents\Visual Studio 2015\Projects\ExcelUploadNuPackage\ExcelUpload\bin\Debug\ExcelUpload.dll
+C:\Users\Smith\Documents\Visual Studio 2015\Projects\ExcelUploadNuPackage\ExcelUpload\bin\Debug\ExcelUpload.pdb
+C:\Users\Smith\Documents\Visual Studio 2015\Projects\ExcelUploadNuPackage\ExcelUpload\bin\Debug\Ionic.Utils.Zip.dll
+C:\Users\Smith\Documents\Visual Studio 2015\Projects\ExcelUploadNuPackage\ExcelUpload\bin\Debug\Net.SourceForge.Koogra.dll
+C:\Users\Smith\Documents\Visual Studio 2015\Projects\ExcelUploadNuPackage\ExcelUpload\obj\Debug\ExcelUpload.dll
+C:\Users\Smith\Documents\Visual Studio 2015\Projects\ExcelUploadNuPackage\ExcelUpload\obj\Debug\ExcelUpload.pdb

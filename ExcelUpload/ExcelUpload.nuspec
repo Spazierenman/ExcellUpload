@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Smith</authors>
+    <owners>$author$</owners>
+    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Convert Excel file to filled List<T>
+</description>
+<summary>
+using ExcelUpload;
+using ExcelUpload.Abstract;
+
+       [HttpPost]
+        public override JsonResult Upload(HttpPostedFileBase file)
+        {
+            JsonResult result = base.Upload(file);
+
+            if (String.IsNullOrWhiteSpace(((UploadResult)result.Data).Message))
+            {
+
+                List_IPTable_ PTableList = new List_IPTable_();
+                PTableList.Add(new PTable_Sedan_());
+                PTableList.Add(new PTable_Order_());
+                ExcellReader er = new ExcellReader();
+                er.ReadExcelContent(file, PTableList);
+                List_Sedan_ Sedans = (List_Sedan_)PTableList[0].GetDataList;
+                List_Order_ Orders = (List_Order_)PTableList[1].GetDataList;
+
+                using (var db = new AutoContext())
+                {
+                    Sedans.ForEach(s=> db.Autos.Add(s));
+                    Orders.ForEach(s => db.Orders.Add(s));
+                    db.SaveChanges();
+                }
+
+            }
+
+            return result;
+        }
+</summary>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags></tags>
+  </metadata>
+  <files>
+    <file src="SampleExcelFile\*.*" target="content\" /> 
+	<file src="lib\Net.SourceForge.Koogra.dll" target="lib\net40\" /> 
+	</files>
+</package>
