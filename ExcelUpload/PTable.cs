@@ -11,6 +11,7 @@ namespace ExcelUpload
 {
     /// <summary>
     /// Класс, принимающий тип модели. Значение свойства 'Name' эквивалентно значению свойства WorkSheet 'Name'
+    /// The class, which takes the model type. The value of the 'Name' is equivalent to the value of the property WorkSheet 'Name'
     /// </summary>
     /// <typeparam name="T"></typeparam>
     public class PTable <T> : IPTable
